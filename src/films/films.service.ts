@@ -1,10 +1,11 @@
 import { Injectable } from '@nestjs/common';
+import { lieux } from './lieux-de-tournage';
 
 @Injectable()
 export class FilmsService {
 
-	getAllFilms() {
-		return
+	async getAllFilms() {
+		return lieux
 	}
 
 }
