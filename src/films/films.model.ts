@@ -1,4 +1,4 @@
-export class FilmsModel {
+export class FilmModel {
 	"type": string;
 	"geometry": {
 		"type": string;
